@@ -1,5 +1,69 @@
-.header-color{
-background: #ee0979;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.header-color {
+    background: #ee0979;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.landing-grid {
+    background: #ee0979;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.avatar-img {
+    height: 250px;
+    padding-top: 5em;
+}
+
+.banner-text{
+    margin: auto;
+    opacity: .8;
+    width: 75%;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.banner-text h1{
+    font-size: 60px;
+    font-weight: bold;
+    color:white;
+}
+
+.banner-text hr{
+    margin: auto;
+    width: 50%;
+    border-top: 5px dotted white;
+}
+
+.banner-text p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.social-links i{
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+}
+
