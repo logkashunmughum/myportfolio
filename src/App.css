@@ -20,6 +20,36 @@
     left: 0;
     width: 100%;
 }
+.contact-body{
+    margin: auto;
+    background-color: grey;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding-top: 2em;
+}
+
+.contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    border: 2px solid red;
+}
+
+.contact-grid h2{
+        font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.projects-grid{
+    display: flex;
+}
 
 .avatar-img {
     height: 250px;
