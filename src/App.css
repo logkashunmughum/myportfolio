@@ -47,6 +47,17 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
+
+.contact-grid hr{
+    border-top:  5px dotted black;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-list i{
+    font-size: 50px;
+    padding-right: 5rem;
+}
 .projects-grid{
     display: flex;
 }
@@ -54,6 +65,8 @@
 .avatar-img {
     height: 250px;
     padding-top: 5em;
+    width: 15%;
+    
 }
 
 .banner-text{
@@ -96,4 +109,12 @@
     font-size: 5em;
     padding: 8px;
 }
+
+.resume-right-col{
+    background-color: #27221F;
+    color: white;
+    padding: 2em;
+
+}
+
 

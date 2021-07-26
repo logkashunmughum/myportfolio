@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Tabs, Tab, Grid, Cell, Card, CardMenu, CardTitle, IconButton, Button, CardText, CardActions} from "react-mdl";
+import { Tabs, Tab, Cell, Card, CardMenu, CardTitle, IconButton, Button, CardText, CardActions} from "react-mdl";
 
 class Projects extends Component {
   constructor(props) {

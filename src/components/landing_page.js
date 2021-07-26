@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Cell, Grid } from "react-mdl";
+import logo from "./logo.jpg";
 
 class LandingPage extends Component {
   render() {
@@ -13,14 +14,14 @@ class LandingPage extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://media.comicbook.com/2020/12/naruto-1249229-1280x0.jpeg"
+              src= {logo}
               alt="avatar"
               className="avatar-img"
             ></img>
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1 style = {{fontFamily : 'sans-serif'}}>Full Stack Web Developer</h1>
               <hr />
-              <p>
+              <p style = {{fontFamily : 'sans-serif'}}>
                 JAVA | SpringBoot | Microservices| React JS| Angular | SQL |
                 MongoDB | AWS
               </p>
